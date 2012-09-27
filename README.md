@@ -1,21 +1,27 @@
 SpreeRestriction
 ================
 
-Introduction goes here.
+Spree extension for adding visibility restriction by roles to products.
 
+Installation
+------------
 
-Example
-=======
+Add the following line to your Gemfile :
 
-Example goes here.
+    gem 'spree_restriction', :git => "git://github.com/yanicklandry/spree_restriction.git"
+    
+And then do a bundle install :
+
+    bundle
+
+Usage
+=====
+
+In the admin mode, go to a product and select a role in the Restriction field (at the very bottom of the page). Click update and then logout. Notice that the product is not visible anymore when the required role is not logged in.
 
 Testing
 -------
 
-Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
-
-    $ bundle
-    $ bundle exec rake test_app
-    $ bundle exec rspec spec
+I did not implemented any rspec testing yet.
 
 Copyright (c) 2012 [name of extension creator], released under the New BSD License
