@@ -7,8 +7,8 @@ Gem::Specification.new do |s|
   s.description = 'Spree extension for adding visibility restriction by roles to products.'
   s.required_ruby_version = '>= 1.8.7'
 
-  # s.author    = 'You'
-  # s.email     = 'you@example.com'
+  s.author    = 'Yanick Landry (Nurun)'
+  s.email     = 'yanick.landry@nurun.com'
   # s.homepage  = 'http://www.spreecommerce.com'
 
   #s.files       = `git ls-files`.split("\n")
