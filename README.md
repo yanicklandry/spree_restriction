@@ -13,8 +13,7 @@ Add the following line to your Gemfile :
 And then execute the following commands at the root of your application :
 
     bundle # to update the installed gems
-    bundle exec rake railties:install:migrations FROM=spree_restriction # to install the extension's migrations into your application
-    bundle exec rake db:migrate # to run the migrations
+    rails g spree_restriction:install # to install the extension's migrations and other files into your application
 
 Usage
 =====
