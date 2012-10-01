@@ -8,13 +8,13 @@ Installation
 
 Add the following line to your Gemfile :
 
-    gem 'spree_restriction', :git => "git://github.com/yanicklandry/spree_restriction.git"
+    gem 'spree_restriction'
     
 And then execute the following commands at the root of your application :
 
     bundle # to update the installed gems
-    rake railties:install:migrations # to install the extension's migrations into your application
-    rake db:migrate # to run the migrations
+    bundle exec rake railties:install:migrations FROM=spree_restriction # to install the extension's migrations into your application
+    bundle exec rake db:migrate # to run the migrations
 
 Usage
 =====
