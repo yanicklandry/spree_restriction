@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_restriction'
-  s.version     = '1.2.1'
+  s.version     = '1.2.2'
   s.summary     = 'Spree extension for adding visibility restriction by roles to products.'
   s.description = 'Spree extension for adding visibility restriction by roles to products.'
   s.required_ruby_version = '>= 1.8.7'
@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 1.2.0'
+  s.add_dependency 'spree_core', '~> 1.2'
 
 end
