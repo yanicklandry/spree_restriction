@@ -11,3 +11,5 @@ nbproject
 pkg
 *.swp
 spec/dummy
+spree_restriction-1.2.4.gem
+spree_restriction-1.2.3.gem
